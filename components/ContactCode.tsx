@@ -2,39 +2,29 @@ import styles from '@/styles/ContactCode.module.css';
 
 const contactItems = [
   {
-    social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    social: 'telegram',
+    link: 'NYAGIN',
+    href: 'https://t.me/NYAGIN',
+  },
+  {
+    social: 'vk',
+    link: 'Nyagin Ilya',
+    href: 'https://vk.com/id525012721',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'nyagin21.com',
+    href: 'mailto:nyagin21@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'NYAGIN',
+    href: 'https://github.com/NYAGIN21',
   },
   {
-    social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
-  },
-  {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
-  },
-  {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
+    social: 'phone',
+    link: '+7 (927) 846-18-56',
+    href: 'tel:+79278461856',
   },
 ];
 
