@@ -25,7 +25,6 @@ const commands: Record<string, () => string[]> = {
     '  date      - Show current date',
     '  whoami    - Who am I?',
     '  ls        - List directory contents',
-    '  pwd       - Print working directory',
     '  echo      - Echo text (usage: echo <text>)',
   ],
   about: () => [
@@ -63,9 +62,8 @@ const commands: Record<string, () => string[]> = {
     'Use "theme <name>" to change theme.',
   ],
   date: () => [new Date().toString()],
-  whoami: () => ['visitor@portfolio ~ exploring awesome projects'],
+  whoami: () => ['Я сам даже не знаю'],
   ls: () => ['about/', 'projects/', 'skills/', 'contact/', 'README.md'],
-  pwd: () => ['/home/visitor/portfolio'],
 };
 
 const processCommand = (input: string): TerminalLine[] => {
