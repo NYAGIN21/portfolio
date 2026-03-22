@@ -10,8 +10,7 @@ export const metadata: Metadata = {
     default: 'NYAGIN21 | Backend Developer',
     template: '%s | NYAGIN21',
   },
-  description:
-    "Backend developer for Rust and Go.",
+  description: 'Backend developer for Rust and Go.',
   keywords: [
     'nyagin21',
     'alexander nyagin',
@@ -21,13 +20,12 @@ export const metadata: Metadata = {
     'portfolio',
   ],
   openGraph: {
-    title: "NYAGIN21 | Backend",
-    description:
-      "Rust & Go developer.",
-    images: [''],
-    url: 'https://nyagin.vercel.app/',
+    title: 'NYAGIN21 | Backend',
+    description: 'Rust & Go developer.',
+    url: 'https://nyagin.vercel.app',  // ← Убрал пробелы в конце
     type: 'website',
     locale: 'ru_RU',
+    // images убран — добавь, когда будет своя картинка
   },
 };
 
