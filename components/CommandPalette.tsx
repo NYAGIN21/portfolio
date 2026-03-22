@@ -59,28 +59,12 @@ const CommandPalette = ({ isOpen, onClose, onToggleTerminal, isTerminalOpen }: C
         action: () => router.push('/projects'),
       },
       {
-        id: 'go-articles',
-        label: 'Go to Articles',
-        category: 'Navigation',
-        shortcut: 'G R',
-        icon: <VscBook size={16} />,
-        action: () => router.push('/articles'),
-      },
-      {
         id: 'go-contact',
         label: 'Go to Contact',
         category: 'Navigation',
         shortcut: 'G C',
         icon: <VscMail size={16} />,
         action: () => router.push('/contact'),
-      },
-      {
-        id: 'go-github',
-        label: 'Go to GitHub',
-        category: 'Navigation',
-        shortcut: 'G G',
-        icon: <VscGithubAlt size={16} />,
-        action: () => router.push('/github'),
       },
       {
         id: 'go-settings',
