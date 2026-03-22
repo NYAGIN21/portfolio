@@ -69,10 +69,10 @@ const AboutPage = () => {
                 <h3 className={styles.expRole}>Backend on Rust/GO</h3>
                 <p className={styles.expCompany}>Own projects</p>
                 <ul className={styles.expList}>
-                  <li>FFI Integration: Calling Rust functions from Go using cgo</li>
-                  <li>gRPC Microservices: Go Gateway → Rust Server</li>
-                  <li>Observability Stack</li>
-                  <li>Maintaining in-house component library, icon library and website</li>
+                  <li>FFI Integration: Calling Rust functions from Go using cgo. </li>
+                  <li>gRPC Microservices: Go Gateway → Rust Server.  </li>
+                  <li>Observability Stack: Collect metrics every 15 seconds (Prometheus)</li>
+                  <li>Infrastructure: Containerization (Docker, multistage build, Alpine). Automatic build in CI (GitHub Actions)</li>
                 </ul>
               </div>
 
