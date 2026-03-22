@@ -42,7 +42,7 @@ const AboutPage = () => {
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <span className={styles.sectionNumber}>01</span>
-              <h2 className={styles.sectionTitle}>About/ о</h2>
+              <h2 className={styles.sectionTitle}>About</h2>
             </div>
             
             <div className={styles.sectionBody}>
@@ -69,9 +69,9 @@ const AboutPage = () => {
                 <h3 className={styles.expRole}>Backend on Rust/GO</h3>
                 <p className={styles.expCompany}>Own projects</p>
                 <ul className={styles.expList}>
-                  <li>Leading frontend development with a lean team of 4 engineers</li>
-                  <li>Building a next-gen video creation suite for professionals</li>
-                  <li>Implemented collaborative video reviewing and editing features</li>
+                  <li>FFI Integration: Calling Rust functions from Go using cgo</li>
+                  <li>gRPC Microservices: Go Gateway → Rust Server</li>
+                  <li>Observability Stack</li>
                   <li>Maintaining in-house component library, icon library and website</li>
                 </ul>
               </div>
