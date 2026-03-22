@@ -42,7 +42,7 @@ const AboutPage = () => {
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
               <span className={styles.sectionNumber}>01</span>
-              <h2 className={styles.sectionTitle}>About</h2>
+              <h2 className={styles.sectionTitle}>About/ о</h2>
             </div>
             
             <div className={styles.sectionBody}>
@@ -50,12 +50,6 @@ const AboutPage = () => {
                 I&apos;m a backend developer passionate about building fast and reliable systems. 
                 I mainly work with the Go and Rust/Solana ecosystem, 
                 building services that can handle high loads.
-              </p>
-              
-              <p className={styles.paragraph}>
-                Я бэкенд-разработчик, увлечённый созданием быстрых и надёжных систем. 
-                В основном работаю с экосистемой Go и Rust/Solana, создавая сервисы, 
-                которые выдерживают высокие нагрузки.
               </p>
             </div>
           </section>
@@ -72,7 +66,7 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>Present</span>
                 </div>
-                <h3 className={styles.expRole}>Software Engineer 2</h3>
+                <h3 className={styles.expRole}></h3>
                 <p className={styles.expCompany}>Tessact</p>
                 <ul className={styles.expList}>
                   <li>Leading frontend development with a lean team of 4 engineers</li>
