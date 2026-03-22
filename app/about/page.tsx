@@ -69,10 +69,10 @@ const AboutPage = () => {
                 <h3 className={styles.expRole}>Rust+GO</h3>
                 <p className={styles.expCompany}>Own projects</p>
                 <ul className={styles.expList}>
-                  <li><strong>FFI Integration:</strong> Calling Rust functions from Go using cgo. </li>
-                  <li><strong>gRPC Microservices:</strong> Go Gateway → Rust Server.  </li>
-                  <li><strong>Observability Stack:</strong> Collect metrics every 15 seconds (Prometheus)</li>
-                  <li><strong>Infrastructure:</strong> Containerization (Docker, Alpine). </li>
+                  <li> <strong>FFI Integration:</strong> Calling Rust functions from Go using cgo. </li>
+                  <li> <strong>gRPC Microservices:</strong> Go Gateway → Rust Server.  </li>
+                  <li> <strong>Observability Stack:</strong> Collect metrics every 15 seconds (Prometheus)</li>
+                  <li> <strong>Infrastructure:</strong> Containerization (Docker, Alpine). </li>
                 </ul>
               </div>
 
