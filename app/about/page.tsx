@@ -13,11 +13,11 @@ const AboutPage = () => {
         <header className={styles.header}>
           <div className={styles.headerContent}>
             <div className={styles.headerText}>
-              <h1 className={styles.name}>Nitin Ranganath</h1>
-              <p className={styles.role}>Software Engineer at Tessact</p>
+              <h1 className={styles.name}>NYAGIN ILYA</h1>
+              <p className={styles.role}>Backend</p>
               <div className={styles.location}>
                 <span className={styles.dot} />
-                Mumbai, India
+                Cheboksary, Russia
               </div>
             </div>
           </div>
