@@ -13,11 +13,11 @@ const AboutPage = () => {
         <header className={styles.header}>
           <div className={styles.headerContent}>
             <div className={styles.headerText}>
-              <h1 className={styles.name}>NYAGIN ILYA</h1>
-              <p className={styles.role}>Backend</p>
+              <h1 className={styles.name}>NYAGIN ILYA</h1> 
+              <p className={styles.role}>Backend</p> 
               <div className={styles.location}>
                 <span className={styles.dot} />
-                Cheboksary, Russia
+                Cheboksary, Russia 
               </div>
             </div>
           </div>
@@ -47,15 +47,15 @@ const AboutPage = () => {
             
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-                I&apos;m a software engineer passionate about crafting beautiful, performant 
-                web experiences. I primarily work with the JavaScript/TypeScript ecosystem 
-                and React, building products that people love to use.
+                Я бэкенд-разработчик, увлечённый созданием быстрых и надёжных систем. 
+                В основном работаю с экосистемой Go и Rust/Solana, создавая сервисы, 
+                которые выдерживают высокие нагрузки.
               </p>
               
               <p className={styles.paragraph}>
-                While I specialize in frontend development, I enjoy working across the 
-                stack with Node.js, MongoDB, and Express to bring full-stack applications 
-                to life.
+                I&apos;m a backend developer passionate about building fast and reliable systems. 
+                I mainly work with the Go and Rust/Solana ecosystem, 
+                building services that can handle high loads.
               </p>
             </div>
           </section>
