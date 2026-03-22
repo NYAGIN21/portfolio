@@ -7,31 +7,27 @@ import '@/styles/themes.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Nitin Ranganath | Portfolio',
-    template: 'Nitin Ranganath | %s',
+    default: 'NYAGIN21 | Backend Developer',
+    template: '%s | NYAGIN21',
   },
   description:
-    "Nitin Ranganath is an avid full stack web developer building websites and applications you'd love to use",
+    "Backend developer for Rust and Go.",
   keywords: [
-    'nitin ranganath',
-    'nitin',
-    'ranganath',
-    'web developer portfolio',
-    'nitin web developer',
-    'nitin developer',
-    'mern stack',
-    'nitin ranganath portfolio',
-    'vscode-portfolio',
+    'nyagin21',
+    'alexander nyagin',
+    'backend developer',
+    'rust developer',
+    'go developer',
+    'portfolio',
   ],
   openGraph: {
-    title: "Nitin Ranganath's Portfolio",
+    title: "NYAGIN21 | Backend",
     description:
-      "A full-stack developer building websites that you'd like to use.",
-    images: ['https://imgur.com/4zi5KkQ.png'],
-    url: 'https://vscode-portfolio.vercel.app',
-  },
-  twitter: {
-    card: 'summary_large_image',
+      "Rust & Go developer.",
+    images: [''],
+    url: 'https://nyagin.vercel.app/',
+    type: 'website',
+    locale: 'ru_RU',
   },
 };
 
