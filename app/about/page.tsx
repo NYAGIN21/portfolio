@@ -149,7 +149,7 @@ const AboutPage = () => {
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
                 Aside from development, I am dedicated to outdoor adventures, 
-                spending 100+ days a year on expeditions. 
+                spending 100+ days a year on expeditions.
                 This hones my planning and resilience under pressure.
               </p>
             </div>
