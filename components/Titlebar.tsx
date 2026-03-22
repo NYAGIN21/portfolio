@@ -21,7 +21,7 @@ const Titlebar = ({ onOpenCommandPalette }: TitlebarProps) => {
         src="/logos/vscode_icon.svg"
         alt="VSCode Icon"
         height={15}
-        width={15}
+        width={150}
         className={styles.icon}
       />
       <div className={styles.items}>
