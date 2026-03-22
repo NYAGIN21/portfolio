@@ -43,9 +43,9 @@ const commands: Record<string, () => string[]> = {
   ],
   projects: () => [
     'Featured Projects:',
-    '  1. vscode-portfolio - This portfolio you are viewing!',
-    '  2. Various open-source contributions',
-    '  3. Full-stack web applications',
+    '  1. FFI Integration',
+    '  2. gRPC Microservices',
+    '  3. Observability Stack',
     '',
     'Visit the Projects tab for more details.',
   ],
