@@ -103,7 +103,11 @@ const Layout = ({ children }: LayoutProps) => {
 
   return (
     <div className={styles.layout}>
-      <Titlebar onOpenCommandPalette={openCommandPalette} />
+      {/* 👇 ИЗМЕНИЛ ЭТУ СТРОКУ - добавил onToggleTerminal */}
+      <Titlebar 
+        onOpenCommandPalette={openCommandPalette} 
+        onToggleTerminal={toggleTerminal} 
+      />
       <div className={styles.main}>
         <Sidebar />
         <Explorer />
