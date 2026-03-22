@@ -139,63 +139,18 @@ const AboutPage = () => {
           </section>
 
           {/* Writing Section */}
-          <section className={styles.section}>
-            <div className={styles.sectionHeader}>
-              <span className={styles.sectionNumber}>04</span>
-              <h2 className={styles.sectionTitle}>Writing</h2>
-            </div>
-            
-            <div className={styles.sectionBody}>
-              <p className={styles.paragraph}>
-                I&apos;ve had the pleasure of writing for some amazing publications 
-                as a freelance technical author:
-              </p>
-              
-              <div className={styles.writingLinks}>
-                <a 
-                  href="https://www.100ms.live/blog/author/nitin" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className={styles.writingLink}
-                >
-                  <span>100ms Blog</span>
-                  <VscLinkExternal size={14} />
-                </a>
-                
-                <a 
-                  href="https://blog.logrocket.com/author/nitinranganath/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className={styles.writingLink}
-                >
-                  <span>LogRocket Blog</span>
-                  <VscLinkExternal size={14} />
-                </a>
-                
-                <a 
-                  href="https://dev.to/itsnitinr" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className={styles.writingLink}
-                >
-                  <span>DEV.to</span>
-                  <VscLinkExternal size={14} />
-                </a>
-              </div>
-            </div>
-          </section>
-
           {/* Beyond Code Section */}
           <section className={styles.section}>
             <div className={styles.sectionHeader}>
-              <span className={styles.sectionNumber}>05</span>
+              <span className={styles.sectionNumber}>04</span>
               <h2 className={styles.sectionTitle}>Beyond Code</h2>
             </div>
             
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-                Aside from programming and writing, I enjoy reading dystopian novels, 
-                listening to calm piano music, or just enjoying some downtime.
+                Aside from development, I am dedicated to outdoor adventures, 
+                spending 100+ days a year on expeditions. 
+                This hones my planning and resilience under pressure.
               </p>
             </div>
           </section>
