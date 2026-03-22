@@ -69,10 +69,10 @@ const AboutPage = () => {
                 <h3 className={styles.expRole}>Rust+GO</h3>
                 <p className={styles.expCompany}>Own projects</p>
                 <ul className={styles.expList}>
-                  <li>FFI Integration: Calling Rust functions from Go using cgo. </li>
-                  <li>gRPC Microservices: Go Gateway → Rust Server.  </li>
-                  <li>Observability Stack: Collect metrics every 15 seconds (Prometheus)</li>
-                  <li>Infrastructure: Containerization (Docker, Alpine). </li>
+                  <li><strong>FFI Integration:</strong> Calling Rust functions from Go using cgo. </li>
+                  <li><strong>gRPC Microservices:</strong> Go Gateway → Rust Server.  </li>
+                  <li><strong>Observability Stack:</strong> Collect metrics every 15 seconds (Prometheus)</li>
+                  <li><strong>Infrastructure:</strong> Containerization (Docker, Alpine). </li>
                 </ul>
               </div>
 
@@ -82,8 +82,7 @@ const AboutPage = () => {
                 </div>
                 <h3 className={styles.expRole}>Rust/Solana</h3>
                 <p className={styles.expDesc}>
-                  Contributing to publications like <strong>100ms Blog</strong>, 
-                  <strong>LogRocket Blog</strong>, and <strong>DEV.to</strong>.
+                  <strong>Blockchain game</strong> based on smart contracts.
                 </p>
               </div>
             </div>
