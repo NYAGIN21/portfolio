@@ -19,16 +19,15 @@ export default function HomePage() {
           <div className={styles.intro}>
             <p className={styles.greeting}>Hello, I&apos;m</p>
             
-            <h1 className={styles.name}>Nitin Ranganath</h1>
+            <h1 className={styles.name}>Nyagin Ilya</h1>
             
-            <p className={styles.role}>Full Stack Developer</p>
+            <p className={styles.role}>Backend Developer</p>
             
             <div className={styles.divider} />
             
             <p className={styles.description}>
-              I craft clean, performant web applications with modern technologies. 
-              Specialized in TypeScript, React, Node.js, and building products 
-              that users love.
+              Develop efficient solutions in Go and Rust: 
+              from FFI integrations to microservices with full observability
             </p>
           </div>
 
@@ -45,7 +44,7 @@ export default function HomePage() {
 
           <div className={styles.links}>
             <a 
-              href="https://github.com/itsnitinr" 
+              href="https://github.com/NYAGIN21" 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.link}
