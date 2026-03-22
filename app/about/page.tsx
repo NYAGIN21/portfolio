@@ -64,23 +64,23 @@ const AboutPage = () => {
             <div className={styles.sectionBody}>
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>Present</span>
+                  <span className={styles.expPeriod}>Backend</span>
                 </div>
-                <h3 className={styles.expRole}>Backend on Rust/GO</h3>
+                <h3 className={styles.expRole}>Rust+GO</h3>
                 <p className={styles.expCompany}>Own projects</p>
                 <ul className={styles.expList}>
                   <li>FFI Integration: Calling Rust functions from Go using cgo. </li>
                   <li>gRPC Microservices: Go Gateway → Rust Server.  </li>
                   <li>Observability Stack: Collect metrics every 15 seconds (Prometheus)</li>
-                  <li>Infrastructure: Containerization (Docker, multistage build, Alpine). Automatic build in CI (GitHub Actions)</li>
+                  <li>Infrastructure: Containerization (Docker, Alpine). </li>
                 </ul>
               </div>
 
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>Freelance</span>
+                  <span className={styles.expPeriod}>Backend</span>
                 </div>
-                <h3 className={styles.expRole}>Technical Writer</h3>
+                <h3 className={styles.expRole}>Rust/Solana</h3>
                 <p className={styles.expDesc}>
                   Contributing to publications like <strong>100ms Blog</strong>, 
                   <strong>LogRocket Blog</strong>, and <strong>DEV.to</strong>.
