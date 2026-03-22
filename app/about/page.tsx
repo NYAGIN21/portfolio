@@ -100,36 +100,38 @@ const AboutPage = () => {
                 <div className={styles.skillCategory}>
                   <h4 className={styles.skillTitle}>Languages</h4>
                   <div className={styles.skillTags}>
-                    <span className={styles.skillTag}>JavaScript</span>
-                    <span className={styles.skillTag}>TypeScript</span>
-                    <span className={styles.skillTag}>HTML/CSS</span>
+                    <span className={styles.skillTag}>Go</span>
+                    <span className={styles.skillTag}>RUST</span>
                   </div>
                 </div>
                 
                 <div className={styles.skillCategory}>
                   <h4 className={styles.skillTitle}>Frontend</h4>
                   <div className={styles.skillTags}>
-                    <span className={styles.skillTag}>React</span>
-                    <span className={styles.skillTag}>Next.js</span>
-                    <span className={styles.skillTag}>Tailwind CSS</span>
+                    <span className={styles.skillTag}> — </span>
                   </div>
                 </div>
                 
                 <div className={styles.skillCategory}>
                   <h4 className={styles.skillTitle}>Backend</h4>
                   <div className={styles.skillTags}>
-                    <span className={styles.skillTag}>Node.js</span>
-                    <span className={styles.skillTag}>Express</span>
-                    <span className={styles.skillTag}>MongoDB</span>
+                    <span className={styles.skillTag}>gRPC</span>
+                    <span className={styles.skillTag}>Protobuf</span>
+                    <span className={styles.skillTag}>FFI/cgo</span>
+                    <span className={styles.skillTag}>tokio</span>
+                    <span className={styles.skillTag}>Prometheus</span>
+                    <span className={styles.skillTag}>Grafana</span>
+                    <span className={styles.skillTag}>Docker</span>
                   </div>
                 </div>
                 
                 <div className={styles.skillCategory}>
                   <h4 className={styles.skillTitle}>Tools</h4>
                   <div className={styles.skillTags}>
-                    <span className={styles.skillTag}>Git</span>
+                    <span className={styles.skillTag}>GitHub Actions</span>
                     <span className={styles.skillTag}>VS Code</span>
-                    <span className={styles.skillTag}>Figma</span>
+                    <span className={styles.skillTag}>wrk/hey</span>
+                    <span className={styles.skillTag}>Docker Compose</span>
                   </div>
                 </div>
               </div>
