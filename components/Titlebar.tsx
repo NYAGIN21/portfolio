@@ -1,11 +1,13 @@
 'use client';
 
 import Image from 'next/image';
+import { VscTerminal } from 'react-icons/vsc';
 
 import styles from '@/styles/Titlebar.module.css';
 
 interface TitlebarProps {
   onOpenCommandPalette?: () => void;
+  onToggleTerminal?: () => void; 
 }
 
 const Titlebar = ({ onOpenCommandPalette }: TitlebarProps) => {
