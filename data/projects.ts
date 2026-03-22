@@ -32,9 +32,9 @@ export const projects: Project[] = [
     slug: 'vscode-portfolio',
   },
   {
-    title: '',
+    title: 'Game on Solan',
     description:
-      '',
+      'Tic-Tac-Toe // Rock-Paper-Scissors',
     logo: '/logos/subtrackt.svg',
     link: 'https://github.com/NYAGIN21',
     slug: 'subtrackt',
