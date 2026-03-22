@@ -47,15 +47,15 @@ const AboutPage = () => {
             
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-                Я бэкенд-разработчик, увлечённый созданием быстрых и надёжных систем. 
-                В основном работаю с экосистемой Go и Rust/Solana, создавая сервисы, 
-                которые выдерживают высокие нагрузки.
-              </p>
-              
-              <p className={styles.paragraph}>
                 I&apos;m a backend developer passionate about building fast and reliable systems. 
                 I mainly work with the Go and Rust/Solana ecosystem, 
                 building services that can handle high loads.
+              </p>
+              
+              <p className={styles.paragraph}>
+                Я бэкенд-разработчик, увлечённый созданием быстрых и надёжных систем. 
+                В основном работаю с экосистемой Go и Rust/Solana, создавая сервисы, 
+                которые выдерживают высокие нагрузки.
               </p>
             </div>
           </section>
