@@ -66,8 +66,8 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>Present</span>
                 </div>
-                <h3 className={styles.expRole}></h3>
-                <p className={styles.expCompany}>Tessact</p>
+                <h3 className={styles.expRole}>Backend on Rust/GO</h3>
+                <p className={styles.expCompany}>Own projects</p>
                 <ul className={styles.expList}>
                   <li>Leading frontend development with a lean team of 4 engineers</li>
                   <li>Building a next-gen video creation suite for professionals</li>
