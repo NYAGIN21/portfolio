@@ -8,12 +8,20 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Driwwwle',
+    title: 'VSCode Portfolio',
     description:
-      'Discover creative websites and developers. A portal for you to share your projects.',
-    logo: '/logos/driwwwle.svg',
-    link: 'https://github.com/itsnitinr/driwwwle',
-    slug: 'driwwwle',
+      'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
+    logo: '/logos/vsc.svg',
+    link: 'https://github.com/itsnitinr/vscode-portfolio',
+    slug: 'vscode-portfolio',
+  },
+  {
+    title: 'VSCode Portfolio',
+    description:
+      'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
+    logo: '/logos/vsc.svg',
+    link: 'https://github.com/itsnitinr/vscode-portfolio',
+    slug: 'vscode-portfolio',
   },
   {
     title: 'VSCode Portfolio',
@@ -30,13 +38,5 @@ export const projects: Project[] = [
     logo: '/logos/subtrackt.svg',
     link: 'https://github.com/itsnitinr/subtrackt',
     slug: 'subtrackt',
-  },
-  {
-    title: 'Coolify Deployments',
-    description:
-      'VSCode extension to track and deploy your Coolify applications.',
-    logo: '/logos/coolify.svg',
-    link: 'https://github.com/itsnitinr/coolify-vscode-extension',
-    slug: 'coolify-vscode-extension',
   },
 ];
