@@ -8,35 +8,35 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'VSCode Portfolio',
+    title: ' FFI Integration',
     description:
-      'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
+      'Called Rust functions from Go via cgo (zero-copy data transfer) to accelerate CPU-intensive operations. Performance benchmarks for CPU-bound tasks (benchmarks in README). 0 memory leaks during load testing, safe memory handling',
     logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
+    link: 'https://github.com/NYAGIN21',
     slug: 'vscode-portfolio',
   },
   {
-    title: 'VSCode Portfolio',
+    title: 'gRPC Microservices',
     description:
-      'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
+      'Microservice architecture on gRPC/Protobuf: Async server on Rust (tokio) + client on Go. Latency between services < 1ms (localhost, gRPC). Throughput: 5K+ RPS in load tests',
     logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
+    link: 'https://github.com/NYAGIN21',
     slug: 'vscode-portfolio',
   },
   {
-    title: 'VSCode Portfolio',
+    title: 'Observability Stack',
     description:
-      'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
+      'Metrics collection from polyglot applications (Prometheus) with 15-second interval. 3 dashboards in Grafana (System, Application, Business), System health dashboards. SLI/SLO monitoring (RPS, Latency, Errors)',
     logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
+    link: 'https://github.com/NYAGIN21',
     slug: 'vscode-portfolio',
   },
   {
-    title: 'Subtrackt',
+    title: '',
     description:
-      'A simple and elegant way to track your subscriptions and save money.',
+      '',
     logo: '/logos/subtrackt.svg',
-    link: 'https://github.com/itsnitinr/subtrackt',
+    link: 'https://github.com/NYAGIN21',
     slug: 'subtrackt',
   },
 ];
