@@ -24,7 +24,7 @@ const AboutPage = () => {
           
           <div className={styles.headerActions}>
             <a 
-              href="https://github.com/itsnitinr" 
+              href="https://github.com/NYAGIN21" 
               target="_blank" 
               rel="noopener noreferrer"
               className={styles.iconButton}
