@@ -7,10 +7,10 @@ import styles from '@/styles/Titlebar.module.css';
 
 interface TitlebarProps {
   onOpenCommandPalette?: () => void;
-  onToggleTerminal?: () => void; 
+  onToggleTerminal?: () => void;
 }
 
-const Titlebar = ({ onOpenCommandPalette }: TitlebarProps) => {
+const Titlebar = ({ onOpenCommandPalette, onToggleTerminal }: TitlebarProps) => {
   const handleViewClick = () => {
     if (onOpenCommandPalette) {
       onOpenCommandPalette();
@@ -32,7 +32,14 @@ const Titlebar = ({ onOpenCommandPalette }: TitlebarProps) => {
         <p onClick={handleViewClick} className={styles.menuItem} title="Open Command Palette (Ctrl+Shift+P)">View</p>
         <p>Go</p>
         <p>Run</p>
-        <p>Terminal</p>
+        <p 
+          onClick={onToggleTerminal} 
+          className={styles.menuItem}
+          style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '4px' }}
+        >
+          <VscTerminal size={14} style={{ verticalAlign: 'middle' }} />
+          Terminal
+        </p>
         <p>Help</p>
       </div>
       <p className={styles.title}>Smile Wider</p>
